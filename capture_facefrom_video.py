@@ -1,8 +1,6 @@
 import cv2
-import os
-os.getcwd()
+
 # Load the cascade
-os.chdir('C:\\Users\\_rajat_\\Desktop\\DataSets\\Python\\OpenCV')
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # To capture video from webcam. 
